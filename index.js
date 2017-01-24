@@ -1,3 +1,6 @@
+// Network namespaces management.
+exports.netns = require('./lib/netns/index');
+
 // Network devices configuration.
 exports.link = require('./lib/link/index');
 
